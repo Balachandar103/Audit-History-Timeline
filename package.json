@@ -1,0 +1,47 @@
+{
+  "name": "audittimeline",
+  "widgetName": "AuditTimeline",
+  "version": "1.0.0",
+  "description": "Displays audit histroy as a timeline",
+  "copyright": "2026",
+  "author": "Balachandar N D",
+  "engines": {
+    "node": "^22.18.0"
+  },
+  "license": "Apache-2.0",
+  "config": {
+    "projectPath": "D:\\\\AI Test-main",
+    "mendixHost": "http://localhost:8080",
+    "developmentPort": 3000
+  },
+  "packagePath": "mxtechies",
+  "scripts": {
+    "start": "pluggable-widgets-tools start:server",
+    "dev": "pluggable-widgets-tools start:web",
+    "build": "pluggable-widgets-tools build:web",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:web"
+  },
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^10.24.1",
+    "@types/big.js": "^6.0.2"
+  },
+  "dependencies": {
+    "classnames": "^2.5.1",
+    "xlsx": "^0.18.5"
+  },
+  "resolutions": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0"
+  },
+  "overrides": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0"
+  }
+}
